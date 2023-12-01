@@ -67,10 +67,7 @@ $(document).ready(function() { // Коли документ завантажен
             $(".card").removeClass("flipped"); 
         }
         $("#stepCounter").text("Крок: " + currentStep + "/10"); 
-        if (currentStep == 10) { 
-            let level = correct > 7 ? "Advanced" : correct > 4 ? "Intermediate" : "Beginner"; 
-            document.getElementById("myModal").innerHTML = "Ваш рівень англійської " + level; 
-        }
+
         $("#translationInput").val(''); // Очищуємо поле введення. Це готує поле введення до наступного кроку.
     });
 
