@@ -7,7 +7,16 @@ body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
 }
-
+select {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
 .bigdiv {
   
   width: 300px;
